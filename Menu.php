@@ -2839,13 +2839,13 @@ window.application = new Application();
 		</rect>
 	</svg>
 	<div id="Calcular_Edad">
-		<span onclick="window.location.href='./ejer3.php';">Calcular Edad</span>
+		<span onclick="window.location.href='./form3.html';">Calcular Edad</span>
     </div>
 	<div id="Calcular_Permetro_y_rea">
-       <span onclick="window.location.href='./ejer2.php';">Calcular Perímetro y Área</span>
+       <span onclick="window.location.href='./form2.html';">Calcular Perímetro y Área</span>
 	</div>
 	<div id="Tabla_de_Multiplicar">
-    <span onclick="window.location.href='./ejer1.php';">Tabla de Multiplicar</span>  
+    <span onclick="window.location.href='./form1.html';">Tabla de Multiplicar</span>  
 	</div>
 </div>
 </body>
