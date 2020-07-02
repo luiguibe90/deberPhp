@@ -1,3 +1,26 @@
+
+   <form name="figuras" method="post" action="ejer2.php">
+      <input type="radio" name="figura" value="triangulo">Triangulo<br>
+         <p>Base: <input type="text" name="baset"/></p>
+         <p>Altura: <input type="text" name="alturat"/></p>
+         <p>Lado 1: <input type="text" name="lado1"/></p>
+         <p>Lado 2: <input type="text" name="lado2"/></p>
+         <p>Lado 3: <input type="text" name="lado3"/></p>      
+      <input type="radio" name="figura" value="cuadrado">Cuadrado<br>
+         <p>Lado: <input type="text" name="lado"/></p> 
+      <input type="radio" name="figura" value="rectangulo">Rectángulo<br>
+         <p>Base: <input type="text" name="baser"/></p>
+         <p>Altura: <input type="text" name="alturar"/></p>      
+      <input type="radio" name="figura" value="circulo">Circulo<br>
+         <p>Radio: <input type="text" name="radio"/></p> 
+         <input type="submit" value="Calcular"></input>  
+         <input type="reset" value="Borrar Datos"></input>  
+   </form>
+
+
+
+
+
 <?php
     $figura= $_POST["figura"];
     $perimetro= 0;

@@ -1,3 +1,9 @@
+</form>
+   <form name="forma" method="POST" action="ejer3.php">
+        <label for="birthdate" >Ingrese su Fecha de Nacimiento:</label>
+        <input type="date" name="datebirth" />
+        <input type="submit" value="Calcular" />
+</form>
 
 <?php
 $bday = new Datetime($_POST["datebirth"]); 
