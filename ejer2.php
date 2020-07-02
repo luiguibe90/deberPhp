@@ -4,16 +4,19 @@
     $area= 0;
 
     $lado= $_POST["lado"];
+    $lado1= $_POST["lado1"];
     $lado2= $_POST["lado2"];
     $lado3= $_POST["lado3"];
-    $base= $_POST["base"];
-    $altura= $_POST["altura"];
+    $baset= $_POST["baset"];
+    $baser= $_POST["baser"];
+    $alturat= $_POST["alturat"];
+    $alturar= $_POST["alturar"];
     $radio= $_POST["radio"];
     
     switch ($figura) {
         case 'triangulo':
-            $area=($base*$altura)/2;
-            $perimetro= $lado+$lado2+$lado3;
+            $area=($baset*$alturat)/2;
+            $perimetro= $lado1+$lado2+$lado3;
             print "<h4>El Perímetro del Triangulo es: $perimetro:</h4>";
             print "<h4>El Area del Triangulo es: $area:</h4>";
             break;
@@ -25,15 +28,15 @@
             break;
 
         case 'rectangulo':
-            $area= ($base*$altura);
-            $perimetro= 2*$base+2*$altura;
+            $area= ($baser*$alturar);
+            $perimetro= 2*$baser+2*$alturar;
             print "<h4>El Perímetro del Rectángulo es: $perimetro:</h4>";
             print "<h4>El Area del Rectángulo es: $area:</h4>";
             break;
 
         case 'circulo':
-            $area= M_PI*($radio ** 2);
-            $perimetro= 2*M_PI*$radio;
+            $area= ($radio ** 2) *M_PI;
+            $perimetro= 2 *($radio) *M_PI;
             print "<h4>El Perímetro del Circulo es: $perimetro:</h4>";
             print "<h4>El Area del Circulo es: $area:</h4>";
             break;
@@ -42,6 +45,4 @@
             # code...
             break;
     }
-     header("Location: index.php");
-
 ?>
