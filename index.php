@@ -28,5 +28,11 @@
          <input type="submit" value="Calcular"></input>  
          <input type="reset" value="Borrar Datos"></input>  
    </form>
+   <form name="forma" method="POST" action="ejer3.php">
+        <label for="birthdate" >Ingrese su Fecha de Nacimiento:</label>
+        <input type="date" name="datebirth" />
+        <input type="submit" value="Calcular" />
+   </form>
+    
 </body>
 </html>
