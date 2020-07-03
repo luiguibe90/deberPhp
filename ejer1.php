@@ -14,4 +14,6 @@ else
         $i++;
     } 
 }
+
+echo "<input type='button' value='Volver' onclick='history.go(-1)'>";
 ?>

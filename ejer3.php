@@ -4,4 +4,5 @@ $today = new Datetime(date('m.d.y'));
 $diff = $today->diff($bday);
 printf(' Tu Edad es  : %d años, %d meses, %d dias', $diff->y, $diff->m, $diff->d);
 printf("\n");
+echo "<input type='button' value='Volver' onclick='history.go(-1)'>";
 ?>
