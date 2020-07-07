@@ -1,4 +1,21 @@
-<?php
+
+
+
+<link rel="StyleSheet" href="./css/ejer3.css" /><div id="_bg__form3"  ></div>
+<img src="skins/enmascarar_grupo_1.png" id="enmascarar_grupo_1" />
+
+<div id="grupo_41285"  >
+	<div id="rect_ngulo_53"  ></div>
+	<img src="skins/enmascarar_grupo_2.png" id="enmascarar_grupo_2" />
+	<div id="rect_ngulo_51"  ></div>
+	<div id="titleTable" >
+		Resultado
+    </div>
+    
+    <div id="divlabeleje3" >
+				<label id="labelshow">
+
+                <?php
     $figura= $_POST["figura"];
     $perimetro= 0;
     $area= 0;
@@ -45,5 +62,18 @@
             # code...
             break;
     }
-    echo "<input type='button' value='Volver' onclick='history.go(-1)'>";
 ?>
+
+				</label>
+			</div>
+
+		<div id="buttonRegresarT"  >
+			<div id="buttonposition"  ></div>
+				<input name="regresar" type="button" value="Regresar" onclick="history.go(-1)" id="regresarT"  />
+		</div>
+
+	
+
+</div>
+
+

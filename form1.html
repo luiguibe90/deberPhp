@@ -3,16 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="StyleSheet" href="./css/form3.css" />
+    <title>Calcular Edad</title>
 </head>
 <body>
-    
-<h1>Tablas de multiplicar</h1>
-   <h3>Escribe un número del 1 al 20.</h3>
-   <form name="tablas" method="post" action="ejer1.php">
-      <p>Escribe aquí el número: <input type="number" name="numero" maxlength="2" size="2" /></p>
-      <p><input type="submit" value="Ver tabla de multiplicar." /></p>
-   </form>
-   <input type ='button' value = 'Regresa a menu' onclick="window.open('menu.php', 'width=800,height=600');"/>
+<!-- </form>
+<form name="forma" method="POST" action="ejer3.php">
+     <label for="birthdate" >Ingrese su Fecha de Nacimiento:</label>
+     <input type="date" name="datebirth" />
+     <input type="submit" value="Calcular" />
+     <input type ='button' value = 'Regresa a menu' onclick="window.open('menu.php', 'width=800,height=600');"/>
+</form> -->
+
+<div id="content-container" >
+    <div id="_bg__form3"  ></div>
+    <img src="skins/enmascarar_grupo_1.png" id="enmascarar_grupo_1" />
+
+    <div id="grupo_41285"  >
+        <div id="rect_ngulo_53"  ></div>
+        <img src="skins/enmascarar_grupo_2.png" id="enmascarar_grupo_2" />
+        <div id="rect_ngulo_51"  ></div>
+        <div id="request_a_demo" >
+         <h3>Tablas de multiplicar</h3> 
+        </div>
+
+        <form method="post" action="ejer1.php" >
+
+            <div id="company"  >
+                <div id="rect_ngulo_55"  ></div>
+                    <input name="numero" type="number" value="numero"  id="datatable"  />
+
+            </div>
+            <div id="labeltm" >
+            <pre>Escribe un número del 1 al 20</pre>
+            </div>
+
+            <div id="button"  >
+                <div id="rect_ngulo_56"  ></div>
+                    <input name="calcular" type="submit" value="Ver tabla de multiplicar"  id="calcular"  />
+                <div id="rect_ngulo_57"  ></div>
+                    <input name="regresar" type="button" value="Regresar" onclick="history.go(-1)" id="regresar"  />
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
 </body>
 </html>

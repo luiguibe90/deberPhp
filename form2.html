@@ -3,28 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <link rel="StyleSheet" href="./css/ejer3.css" /><div id="_bg__form3"  ></div>
+    <title>Calcular Edad</title>
 </head>
 <body>
-    <form name="figuras" method="post" action="ejer2.php">
-        <input type="radio" name="figura" value="triangulo">Triangulo<br>
-           <p>Base: <input type="text" name="baset"/></p>
-           <p>Altura: <input type="text" name="alturat"/></p>
-           <p>Lado 1: <input type="text" name="lado1"/></p>
-           <p>Lado 2: <input type="text" name="lado2"/></p>
-           <p>Lado 3: <input type="text" name="lado3"/></p>      
-        <input type="radio" name="figura" value="cuadrado">Cuadrado<br>
-           <p>Lado: <input type="text" name="lado"/></p> 
-        <input type="radio" name="figura" value="rectangulo">Rectángulo<br>
-           <p>Base: <input type="text" name="baser"/></p>
-           <p>Altura: <input type="text" name="alturar"/></p>      
-        <input type="radio" name="figura" value="circulo">Circulo<br>
-           <p>Radio: <input type="text" name="radio"/></p> 
-           <input type="submit" value="Calcular"></input>  
-           <input type="reset" value="Borrar Datos"></input>
-           <input type ='button' value = 'Regresa a menu' onclick="window.open('menu.php', 'width=800,height=600');"/>  
-     </form>
-  
-  
+<!-- </form>
+<form name="forma" method="POST" action="ejer3.php">
+     <label for="birthdate" >Ingrese su Fecha de Nacimiento:</label>
+     <input type="date" name="datebirth" />
+     <input type="submit" value="Calcular" />
+     <input type ='button' value = 'Regresa a menu' onclick="window.open('menu.php', 'width=800,height=600');"/>
+</form> -->
+
+<div id="content-container" >
+    <div id="_bg__form3"  ></div>
+    <img src="skins/enmascarar_grupo_1.png" id="enmascarar_grupo_1" />
+
+    <div id="grupo_41285"  >
+        <div id="rect_ngulo_53"  ></div>
+        <img src="skins/enmascarar_grupo_2.png" id="enmascarar_grupo_2" />
+        <div id="rect_ngulo_51"  ></div>
+        <div id="title3" >
+         <h3>Calcular Áreas y Perímetros</h3> 
+        </div>
+
+        <form method="post" action="ejer2.php" >
+         <div id="divform" >
+                    <input type="radio" name="figura" value="triangulo">Triangulo<br>
+                        <p>Base: <input class="eje2" type="text" name="baset"/></p>
+                        <p>Altura: <input class="eje2" type="text" name="alturat"/></p>
+                        <p>Lado 1: <input class="eje2" type="text" name="lado1"/></p>
+                        <p>Lado 2: <input class="eje2" type="text" name="lado2"/></p>
+                        <p>Lado 3: <input class="eje2" type="text" name="lado3"/></p>      
+                      
+                     
+         </div>
+         <div id="divform2">
+                     <input type="radio" name="figura" value="cuadrado">Cuadrado<br>
+                        <p>Lado: <input class="eje2" type="text" name="lado"/></p> 
+                        <input type="radio" name="figura" value="rectangulo">Rectángulo<br>
+                        <p>Base: <input class="eje2" type="text" name="baser"/></p>
+                        <p>Altura: <input class="eje2" type="text" name="alturar"/></p>     
+
+         </div>
+         <div id="divform3">
+                     <input type="radio" name="figura" value="circulo">Circulo<br>
+                     <p>Radio: <input class="eje2" type="text" name="radio"/></p> 
+         </div>
+
+                 
+            <div id="buttonResetT"  >
+                <div id="buttonpositionreset"  ></div>
+                <input name="Borrar datos" type="reset" value="Borrar campos" id="resetT"  />
+            </div>
+            
+            <div id="buttonRegresarT"  >
+               <div id="buttonposition"  ></div>
+                  <input name="regresar" type="button" value="Regresar" onclick="history.go(-1)" id="regresarT"  />
+            </div>
+            <div id="buttonCalcularT"  >
+                <div id="buttonpositioncalcular"  ></div>
+                   <input name="calcular" type="submit" value="Calcular"  id="calcularT"  />
+             </div>
+
+        </form>
+
+    </div>
+
+</div>
 </body>
 </html>

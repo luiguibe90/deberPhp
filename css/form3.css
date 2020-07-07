@@ -1,0 +1,278 @@
+/*
+	@name form3
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative; width: 1366px; height: 768px; margin-left: auto; margin-right: auto;  }
+
+#_bg__form3 {
+	top: 0px;
+	left: 0px;
+	width: 1366px;
+	height: 768px;
+	background:rgba(255,255,255,255);
+}
+
+
+#enmascarar_grupo_1 {
+	top: -66px;
+	left: 0px;
+	width: 1366px;
+	height: 1024px;
+}
+
+#grupo_41285 {
+	top: 39px;
+	left: 77px;
+	width: 1166px;
+	height: 656px;
+}
+
+#rect_ngulo_53 {
+	top: 0px;
+	left: 0px;
+	width: 1166px;
+	height: 656px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,1.93);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,1.93);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,1.93);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,1.93);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,1.93);
+	background:rgba(8,81,129,255);
+}
+
+
+#enmascarar_grupo_2 {
+	top: 0px;
+	left: -0px;
+	width: 1166px;
+	height: 656px;
+}
+
+
+#rect_ngulo_51 {
+	top: 0px;
+	left: 0px;
+	width: 1166px;
+	height: 656px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-127.26537656543deg , rgba(0,31,52,179) 0%, rgba(0,35,58,91) 44%, rgba(0,39,64,0) 100%);
+	background: -o-linear-gradient(-127.26537656543deg , rgba(0,31,52,179) 0%, rgba(0,35,58,91) 44%, rgba(0,39,64,0) 100%);
+	background: -moz-linear-gradient(-127.26537656543deg , rgba(0,31,52,179) 0%, rgba(0,35,58,91) 44%, rgba(0,39,64,0) 100%);
+	background: -ms-linear-gradient(-127.26537656543deg , rgba(0,31,52,179) 0%, rgba(0,35,58,91) 44%, rgba(0,39,64,0) 100%);
+	background: linear-gradient(-127.26537656543deg , rgba(0,31,52,179) 0%, rgba(0,35,58,91) 44%, rgba(0,39,64,0) 100%);
+}
+
+
+#request_a_demo {
+	top: 31px;
+	left: 346px;
+	width: 428px;
+	height: 86px;
+	overflow: hidden;
+	font-family: Open Sans;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	color:#e2f4ff;
+}
+
+#company {
+	top: 272px;
+	left: 433px;
+	width: 308px;
+	height: 46.000030517578px;
+}
+
+#rect_ngulo_55 {
+	top: -0px;
+	left: 0px;
+	width: 308px;
+	height: 46px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	background:rgba(255,255,255,255);
+}
+
+
+#datebirth {
+	outline: none;
+	background: inherit;
+	background-color:transparent;
+	border: 0;
+	top: 2px;
+	left: 2px;
+	width: 302px;
+	height: 47px;
+	overflow: hidden;
+	font-family: Segoe UI;
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;
+	color:#707070;
+	position: absolute;
+}
+#datatable{
+
+	outline: none;
+	background: inherit;
+	background-color:transparent;
+	border: 0;
+	top: 2px;
+	left: 2px;
+	width: 302px;
+	height: 47px;
+	overflow: hidden;
+	font-family: Segoe UI;
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;
+	color:#707070;
+	position: absolute;
+}
+#ingrese_su_fecha_de_nacimiento_ {
+	top: 214px;
+	left: 400px;
+	width: 365px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Open Sans;
+	font-size: 24px;
+	text-align: left;
+	line-height: 24px;
+	color:#e2f4ff;
+}
+#labeltm{
+	top: 214px;
+	left: 400px;
+	width: 400px;
+	height: 58px;
+	overflow: hidden;
+	font-family: Open Sans;
+	font-size: 24px;
+	text-align: left;
+	line-height: 24px;
+	color:#e2f4ff;
+}
+#button {
+	top: 345px;
+	left: 417px;
+	width: 332px;
+	height: 99.000030517578px;
+}
+
+#rect_ngulo_56 {
+	opacity:0.9921568627451;
+	top: 0px;
+	left: 0px;
+	width: 332px;
+	height: 44px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	background:rgba(0,140,247,253);
+}
+
+
+#calcular {
+	outline: none;
+	background: inherit;
+	background-color:transparent;
+	border: 0;
+	top: -3px;
+	left: 0px;
+	width: 332px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Segoe UI;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color:#ffffff;
+	position: absolute;
+	cursor: pointer;
+}
+#calcular:hover{
+	color:#f8a15a;
+}
+
+
+#rect_ngulo_57 {
+	opacity:0.9921568627451;
+	top: 54px;
+	left: 0px;
+	width: 332px;
+	height: 45px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,0.64);
+	background:rgba(0,140,247,253);
+	cursor: pointer;
+}
+
+
+#regresar {
+	outline: none;
+	background: inherit;
+	background-color:transparent;
+	border: 0ch;
+	top: 51px;
+	left: 0px;
+	width: 332px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Segoe UI;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color:#ffffff;
+	position: absolute;
+	cursor: pointer;
+}
+#regresar:hover{
+	color:#f8a15a;
+}
+
+
+
+/* Add your custom CSS here */
